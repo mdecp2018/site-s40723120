@@ -1,17 +1,80 @@
 <h1>簡介</h1>
 <p>2018 Fall 計算機程式與電腦輔助設計實習課程分組網站</p>
-<h2>CMSimfly 網站</h2><p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p><h2>reveal 投影片</h2>
-<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p><h2>pelican 網誌</h2>
+<h2>CMSimfly 網站</h2>
+<p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p>
+<h2>reveal 投影片</h2>
+<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p>
+<h2>pelican 網誌</h2>
 <p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo&nbsp;</p>
 <p>各分組必須自行更改&nbsp;@edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p>
 <p>更改 @edit publishconf.py 中的 SITEURL</p>
-<p></p><h1>組員操作影片</h1>
-<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p><h2>Week1</h2>
-<p><span>國立虎尾科技大學機械設計工程系計算機程式 - 一乙第八週第三部分, 說明如何利用 Eric6 IDE 建立所需的 calculator 計算機程式對話表單. 過程中主要學習如何啟動 Eric6, 如何建立 Eric6 專案, 如何切換 Sources tab 與 Form tab, 如何在進入 Qt Designer 後利用格點布局, 建立按鈕與 Line Edit 部件.</span></p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/g4ksXq7sQ4M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
+<h1>課程介紹</h1>
+<h3>gti基本指令</h3>
+<p>mkdir name 創建一個文檔夾</p>
+<p>rm file 刪除</p>
+<p>cd name 進入文檔夾</p>
+<p>pwd 查看當前目錄</p>
+<p>git init<span>&nbsp;</span><span>把當前目錄變成</span>git<span>可以管理的倉庫 生成</span><span>.git</span><span>文檔夾</span></p>
+<p>git add name<span>&nbsp;</span><span>把文檔添加到暫存區</span>stage</p>
+<p>git commit -m &ldquo;&nbsp;&rdquo;<span>&nbsp;</span><span>把暫存區所有文檔提交到</span>git<span>當前分支上（本地倉庫）</span></p>
+<p>git status<span>&nbsp;</span><span>查看當前</span>git<span>倉庫狀態</span></p>
+<p>git diff file<span>&nbsp;</span><span>查看修改的文檔內容</span></p>
+<p>git log<span>&nbsp;</span><span>查看從最近到最遠的提交日誌</span></p>
+<p>git reset --hard<span>&nbsp;</span><span>版本號 &nbsp;回退到某版本（</span><span>HEAD</span><span>指向當前版本）</span></p>
+<pre class="highlight"><span>git push origin HEAD --force 上傳目前(hard)版本</span></pre>
+<p>git reflog &nbsp;<span>查看命令操作歷史</span></p>
+<p>git checkout -- file &nbsp; &nbsp;<span>丟棄工作區文檔的修改</span></p>
+<p>git reset HEAD file &nbsp; &nbsp;<span>丟棄暫存區的文檔</span></p>
+<p>git rm file &nbsp;<span>刪除工作區文檔後還需刪除</span>git<span>中的文檔</span></p>
+<p>git checkout --file &nbsp;<span>恢復誤刪的</span>git<span>文檔</span></p>
+<p>關聯一個遠程倉庫 &nbsp; git remote add origin address</p>
+<p>第一次推送代碼到遠程倉庫 git push -u origin master</p>
+<p><span>（</span>-u<span>會把本地倉庫</span><span>master</span><span>分支和遠程倉庫的</span>master<span>分支</span><span>關聯起來）</span></p>
+<p>從遠程倉庫克隆代碼到本地 git clone address</p>
+<p>創建分支 git branch name</p>
+<p>切換分支 git checkout name&nbsp; &nbsp; &nbsp;</p>
+<p>查看分支 git branch</p>
+<p>創建分支並切換到分支上　　git checkout -b name</p>
+<p>合併指定分支到當前分支上 git merge name</p>
+<p>合併後刪除分支 git branch -d name</p>
+<p><strong>合併時出現衝突要手動解決衝突，再提交，最後合併</strong>。</p>
+<p>將寫到一半的代碼從工作區拿走存起來 git stash</p>
+<p><span>恢復隱藏的代碼到工作區並刪除隱藏位置的代碼</span><span>&nbsp;</span>&nbsp;git stash pop</p>
+<p>強行刪除一個沒有合併過的分支 git branch -D name</p>
+<h2>python基本語法</h2>
+<p>● &rdquo;#&rdquo;符號後是註解（comment），可以在一列的開頭或中間加入<br>● reserved word or built-in function (變數取名請避開！)<br>○&nbsp; &nbsp; &nbsp;and, exec, not, as, finally, or, assert, for, pass, except<br>○&nbsp; &nbsp; &nbsp;break, from, print, class, global, raise, continue, if, return<br>○&nbsp; &nbsp; &nbsp;def, import, try, del, in, while, elif, is, with, else, lambda, yield<br>● 縮排視為不同的block (在IF判斷式或迴圈的段落中使用)<br>○&nbsp; &nbsp; &nbsp;縮排可以用tab或是數個空格(至少一個空格)。<br>○&nbsp; &nbsp; &nbsp;空格的數量不同，視為不同的block (bug很容易因為這一點而發生)<br>● python的每個變數視為一個object。</p>
+<p><span><strong>Python variables</strong></span></p>
+<p>● 不需要事先宣告變數，直接用&rdquo;=&ldquo; assign value（賦值）即可。<br>○&nbsp; &nbsp; &nbsp;x=3.14 &rarr; 實數變數<br>● 變數類型（data type）根據被賦予的值決定（之後如果被assign不同類型的數<br>值，該變數的類型就會直接改變）<br>○&nbsp; &nbsp; &nbsp;x=&lsquo;text&rsquo; &rarr; 字串變數<br>● 確認變數的data type: type(x)<br>● 變數名稱中的大小寫要完全一致（a、A會當作不同的變數）<br>● python可以在同一個指令中對多個變數賦值<br>○&nbsp; &nbsp; &nbsp;x, y = 2, 1 &rarr; x = 2, y = 1<br>● 若想要移除變數，使用del x y<br>● 常見的data type: number, string, list, tuple, boolean</p>
+<p><span><strong>Simple input/output</strong></span></p>
+<p>● input(&ldquo;&hellip;&rdquo;) 在螢幕上顯示字串，並等待使用者輸入字串<br>○&nbsp; &nbsp; &nbsp;x = input (&ldquo;input your name: &ldquo;)  螢幕上會顯示訊息 input your name:，<br>&nbsp; &nbsp; &nbsp; &nbsp;使用者輸入的內容，會用字串類型存到x變數<br>○&nbsp; &nbsp; 就算使用者輸入數字，仍然是以字串類型儲存（之後會介紹如何切割字串<br>&nbsp; &nbsp; &nbsp;（split），轉為數值）<br>● print (...) 顯示在螢幕上<br>○&nbsp; &nbsp; &nbsp;e.g. print (&ldquo;Hello World!!&rdquo;)<br>○&nbsp; &nbsp; &nbsp;若要一次輸出多個變數至螢幕上，直接以逗號分開 e.g. print(x,y,z)<br>○&nbsp; &nbsp; &nbsp;也可以format output</p>
+<p><span><strong>Python variable types</strong></span></p>
+<p>● Number 數值<br>○&nbsp; &nbsp; &nbsp;int : a = 11<br>○&nbsp; &nbsp; &nbsp;float: a = 1.1e-18<br>○&nbsp; &nbsp; &nbsp;complex: a = 4. + 7j<br>● String 字串 （ 用&ldquo; &ldquo; 或 &lsquo; &lsquo;夾起）<br>○&nbsp; &nbsp; &nbsp;e.g. x = &ldquo;Hello World!&rdquo; or x = &lsquo;Hello World!&rsquo;<br>○&nbsp; &nbsp; &nbsp;取出字串的局部：x [0:3]<br>■&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;注意：index 從 0 開始計算！<br>■&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[a:b] -- begin at index a and end before index b (e.g., x[0:3] -&gt; &ldquo;Hel&rdquo;)<br>○&nbsp; &nbsp; &nbsp;不可以對字串的局部做更改，e.g. x[0:3] =&rdquo;Yo!&rdquo; (這個是錯誤的語法)<br>● Boolean 邏輯<br>○&nbsp; &nbsp; &nbsp;只有True, False兩種值，根據邏輯判斷（IF condition）的結果決定<br>○&nbsp; &nbsp; &nbsp;兩個boolean 變數做運算，會以True=1, False=0 做整數運算</p>
+<p><span><strong>Python variables: list and tuple</strong></span></p>
+<p>● list, tuple<br>○&nbsp; &nbsp; &nbsp;類似陣列的概念，但可以混雜儲存不同型態的資料，如下所示<br>○&nbsp; &nbsp; &nbsp;List： x = [ 'abcd', 786 , 2.23, 'john', 70.2]<br>○&nbsp; &nbsp; &nbsp;Tuple: y = ( 'abcd', 786 , 2.23, 'john', 70.2)<br>○&nbsp; &nbsp; &nbsp;assignment: list 使用 [], tuple 使用(), 每個元素都用&rdquo;，&rdquo;分開<br>○&nbsp; &nbsp; &nbsp;list 的大小及元素可以改變。tuple則不行 (類似常數陣列)<br>○&nbsp; &nbsp; &nbsp;sub-list 或是 sub-tuple語法類似取出字串局部：<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; x[0:2]  ['abcd', 786 ]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; y[2:4]  (786, 2.23 )</p>
+<p><span><strong>Convert data type</strong></span></p>
+<p>有時候需要不同型態的資料轉換，例如將字串&rdquo;10&rdquo;轉成整數10<br>下列為常用的built-in function<br>● int (x)<br>● float (x)<br>● str (x)</p>
+<p><span><strong>Arithmetic Operators</strong></span></p>
+<p>● 加法 +<br>○&nbsp; &nbsp; &nbsp;string 相加：形成新的字串&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ● 次方 **<br>■&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x = &ldquo;Hello&rdquo;, y = &ldquo;World&rdquo;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ● 取餘數 %<br>■&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c = x + y &rarr; c = &ldquo;HelloWorld&rdquo;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ● 整除至最近整數 //<br>● 減法 -&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp;相除後取最接近的整數（整實數），<br>● 乘法 *&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;結果的類型取決於兩個變數的類型：<br>○&nbsp; &nbsp; &nbsp;string 乘一個數字(int)：字串重複幾次&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9//2 = 4<br>■&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x = &ldquo;Yo!&rdquo;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9.0//2.0 = 4.0<br>■&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;y = x * 3 &rarr; y = &ldquo;Yo!Yo!Yo!&rdquo;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11.0//3 = 4.0<br>● 除法 /<br>○&nbsp; &nbsp; &nbsp;注意：兩個整數相除，結果是實數<br>■&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x = 21, y = 10<br>■&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c = x / y &rarr; c = 2.1</p>
+<p><strong><span>Arithmetic Operators</span></strong></p>
+<p>● 如果要進行下面的運算 a= a+b （用a+b的結果為a重新賦值）<br>● 在python可以改寫成： a += b<br>● 所以算術運算符號可以有<br>&nbsp; &nbsp; &nbsp; &nbsp; +=&nbsp; &nbsp; &nbsp;-=&nbsp; &nbsp; &nbsp;*=&nbsp; &nbsp; &nbsp;/=&nbsp; &nbsp; &nbsp;%=&nbsp; &nbsp; &nbsp;**=&nbsp; &nbsp; &nbsp;//=</p>
+<p><span><strong>Modules or package （也稱為library）</strong></span></p>
+<p>● &rdquo;modules&rdquo; or &ldquo;packages&rdquo;：通常是其他人寫好的函數或指令，打包成一個「工具庫」<br>&nbsp;方便分享使用。（非python內建，可能會需要下載安裝）<br>○&nbsp; &nbsp; &nbsp;本課程會用到的library: numpy (array), matplotlib (基本繪圖), basemap (地圖),<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;netCDF (讀nc檔)<br>● 使用方式：import module_name<br>○&nbsp; &nbsp; &nbsp;在執行工具庫內的指令之前，就要先把modules 引進來（不然python不會認得<br>&nbsp; &nbsp; &nbsp; &nbsp; 非內建的指令）<br>○&nbsp; &nbsp; &nbsp;使用工具庫內的指令：module_name.function (or module_name.constant)<br>○&nbsp; &nbsp; &nbsp;可以使用import module_name as xxx (xxx是你自己取的縮寫）<br>&nbsp; &nbsp; &nbsp; &nbsp; 使用指令的語法就簡化成xxx.function，例如:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;import math as m</p>
+<h1>組員操作影片</h1>
+<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
+<h2>Week1</h2><p><span>1.建立github帳號</span></p><p><span>2.建立倉儲: s40723120.github.io</span></p><p><span>2.git clone&nbsp; https://github.com/mdecourse/2018fall</span></p><p><span>3.git clone&nbsp;&nbsp;https://github.com/s40723120/s40723120.github.io</span></p><p><span>4.從2018fall資料夾複製裡面的檔案，排除.git和README.me，並貼到自己的資料夾內</span></p><p><span>5.git status(檢查狀態)&gt;git add .(增加)&gt;git commit -m "名稱"( 提交)&gt;git push (推送)</span></p><p><span><iframe width="560" height="314" src="//www.youtube.com/embed/5Ssi2CkPLbY" allowfullscreen="allowfullscreen"></iframe></span></p><h2>Week2</h2>
+<h2>Week3</h2>
+<h2>Week4</h2>
+<h2>Week5</h2>
+<h2>Week6</h2>
+<h2>Week7</h2>
+<h2>Week8</h2>
+<p></p>
+<p></p>
 <h1>Python 手冊</h1>
 <p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p>
-<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p><h1>OnShape 手冊</h1>
+<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
+<h1>OnShape 手冊</h1>
 <p><a href="https://www.onshape.com/">https://www.onshape.com/</a>&nbsp;</p>
-<p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p><h1>Fusion 360</h1>
+<p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p>
+<h1>Fusion 360</h1>
 <p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>&nbsp;</p>
