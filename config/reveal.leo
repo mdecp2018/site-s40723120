@@ -21,8 +21,11 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101211745.1" a="E"><vh>投影片1</vh>
+<v t="leo.20181101211745.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -232,7 +235,272 @@ make.start()
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20180827201621.2"></t>
+<t tx="leo.20180827201621.2">D:/site-s40723120/config/reveal.leo,&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Created by Leo: http://leoeditor.com/leo_toc.html --&gt;
+&lt;leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" &gt;
+&lt;leo_header file_format="2"/&gt;
+&lt;vnodes&gt;
+&lt;v t="leo.20180827201621.2" a="E"&gt;&lt;vh&gt;@path ./../reveal&lt;/vh&gt;
+&lt;v t="leo.20180827201621.3" a="E"&gt;&lt;vh&gt;@clean index.html&lt;/vh&gt;
+&lt;v t="leo.20180827201621.4" a="E"&gt;&lt;vh&gt;html&lt;/vh&gt;
+&lt;v t="leo.20180827201621.5"&gt;&lt;vh&gt;head&lt;/vh&gt;&lt;/v&gt;
+&lt;v t="leo.20180827201621.6" a="E"&gt;&lt;vh&gt;body&lt;/vh&gt;
+&lt;v t="leo.20180827201621.7" a="E"&gt;&lt;vh&gt;reveal div&lt;/vh&gt;
+&lt;v t="leo.20180827201621.8" a="E"&gt;&lt;vh&gt;slides div&lt;/vh&gt;
+&lt;v t="leo.20180827201621.9"&gt;&lt;vh&gt;封面投影片&lt;/vh&gt;
+&lt;v t="leo.20180827201621.10"&gt;&lt;vh&gt;封面投影片內容&lt;/vh&gt;&lt;/v&gt;
+&lt;/v&gt;
+&lt;v t="leo.20181101211745.1" a="E"&gt;&lt;vh&gt;投影片1&lt;/vh&gt;
+&lt;v t="leo.20181101211745.2"&gt;&lt;vh&gt;封面投影片內容&lt;/vh&gt;&lt;/v&gt;
+&lt;/v&gt;
+&lt;v t="leo.20180827201621.11" a="E"&gt;&lt;vh&gt;快捷鍵&lt;/vh&gt;
+&lt;v t="leo.20180827201621.12"&gt;&lt;vh&gt;投影片快捷鍵&lt;/vh&gt;&lt;/v&gt;
+&lt;/v&gt;
+&lt;v t="leo.20180827201621.13"&gt;&lt;vh&gt;各式內容引用範例&lt;/vh&gt;
+&lt;v t="leo.20180827201621.14" a="E"&gt;&lt;vh&gt;導入數學符號與方程式&lt;/vh&gt;
+&lt;v t="leo.20180827201621.15"&gt;&lt;vh&gt;LaTeX 格式方程式&lt;/vh&gt;&lt;/v&gt;
+&lt;/v&gt;
+&lt;v t="leo.20180827201621.16" a="E"&gt;&lt;vh&gt;導入縮排程式碼&lt;/vh&gt;
+&lt;v t="leo.20180827201621.17"&gt;&lt;vh&gt;引用程式碼&lt;/vh&gt;&lt;/v&gt;
+&lt;/v&gt;
+&lt;v t="leo.20180827201621.18" a="E"&gt;&lt;vh&gt;導入影片&lt;/vh&gt;
+&lt;v t="leo.20180827201621.19"&gt;&lt;vh&gt;iframe 導入影片&lt;/vh&gt;&lt;/v&gt;
+&lt;/v&gt;
+&lt;/v&gt;
+&lt;/v&gt;
+&lt;/v&gt;
+&lt;/v&gt;
+&lt;/v&gt;
+&lt;/v&gt;
+&lt;/v&gt;
+&lt;/vnodes&gt;
+&lt;tnodes&gt;
+&lt;t tx="leo.20180827201621.10"&gt;## 40723120 簡報
+
+### 虎科大機械設計工程系
+
+&amp;lt;small&amp;gt;
+Created by [KMOLab](http://lab.kmol.info/)
+&amp;lt;/small&amp;gt;
+
+[2018 Fall 分組網誌](./../blog/index.html)
+
+
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.11"&gt;&amp;lt;section data-markdown&amp;gt;
+    &amp;lt;script type="text/template"&amp;gt;
+@others
+    &amp;lt;/script&amp;gt;
+&amp;lt;/section&amp;gt;
+
+
+						
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.12"&gt;# 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.13"&gt;&amp;lt;section&amp;gt;
+@others
+&amp;lt;/section&amp;gt;
+
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.14"&gt;&amp;lt;section data-markdown&amp;gt;
+    &amp;lt;script type="text/template"&amp;gt;
+&amp;lt;!-- 請注意, @others 不可以內縮 --&amp;gt;
+@others
+    &amp;lt;/script&amp;gt;
+&amp;lt;/section&amp;gt;
+
+
+
+						
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.15"&gt;# 數學符號與方程式
+
+Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:
+
+$$I = \int \rho R^{2} dV$$
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.16"&gt;&amp;lt;section data-markdown&amp;gt;
+    &amp;lt;script type="text/template"&amp;gt;
+&amp;lt;!-- 請注意, @others 不可以內縮 --&amp;gt;
+@others
+    &amp;lt;/script&amp;gt;
+&amp;lt;/section&amp;gt;
+
+
+
+						
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.17"&gt;## 利用 Markdown 寫投影片
+以下利用 Markdown 格式展示 Python 程式碼:
+```
+@language python
+# use threading and subprocess to threading the make process
+import os
+import subprocess
+import threading
+
+def domake():
+    
+    path = "../exposed/api/exposed"
+    ubuntu = "../Ubuntu"
+    
+    # create obj path
+    
+    if not os.path.exists(path+"/../obj"):
+        os.makedirs(path+"/../obj")
+    
+    subprocess.call(["make", "clean"], cwd=path)
+    subprocess.call("make", cwd=path)
+    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
+    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
+    
+make = threading.Thread(target=domake)
+make.start()
+```
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.18"&gt;&amp;lt;section data-markdown&amp;gt;
+    &amp;lt;script type="text/template"&amp;gt;
+@others
+    &amp;lt;/script&amp;gt;
+&amp;lt;/section&amp;gt;
+
+
+						
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.19"&gt;## 使用 iframe 導入影片
+
+### 導入影片 template
+
+&amp;lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.2"&gt;&lt;/t&gt;
+&lt;t tx="leo.20180827201621.3"&gt;@language xml
+@tabwidth -4
+@others
+
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.4"&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang="en"&amp;gt;
+@others
+&amp;lt;/html&amp;gt;
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.5"&gt;&amp;lt;head&amp;gt;
+    &amp;lt;meta charset="utf-8"&amp;gt;
+&amp;lt;title&amp;gt;
+2018 Fall 分組網際簡報
+&amp;lt;/title&amp;gt;
+    &amp;lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&amp;gt;
+    &amp;lt;meta name="author" content="Hakim El Hattab"&amp;gt;
+    
+    &amp;lt;meta name="apple-mobile-web-app-capable" content="yes"&amp;gt;
+    &amp;lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&amp;gt;
+    
+    &amp;lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&amp;gt;
+    
+    &amp;lt;link rel="stylesheet" href="css/reveal.css"&amp;gt;
+    &amp;lt;link rel="stylesheet" href="css/theme/black.css" id="theme"&amp;gt;
+    
+    &amp;lt;!-- Theme used for syntax highlighting of code --&amp;gt;
+    &amp;lt;link rel="stylesheet" href="lib/css/zenburn.css"&amp;gt;
+
+    &amp;lt;!-- Printing and PDF exports --&amp;gt;
+    &amp;lt;script&amp;gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &amp;lt;/script&amp;gt;
+
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+    &amp;lt;script src="lib/js/html5shiv.js"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;![endif]--&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.6"&gt;&amp;lt;body&amp;gt;
+@others
+&amp;lt;script src="lib/js/head.min.js"&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src="js/reveal.js"&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true },
+                { src: 'plugin/notes/notes.js', async: true },
+                { src: 'plugin/math/math.js', async: true }
+            ]
+        });
+&amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.7"&gt;&amp;lt;div class="reveal"&amp;gt;
+@others
+&amp;lt;/div&amp;gt;
+
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.8"&gt;&amp;lt;!-- Any section element inside of this container is displayed as a slide --&amp;gt;
+&amp;lt;div class="slides"&amp;gt;
+@others
+&amp;lt;/div&amp;gt;
+
+&lt;/t&gt;
+&lt;t tx="leo.20180827201621.9"&gt;&amp;lt;section data-markdown&amp;gt;
+    &amp;lt;script type="text/template"&amp;gt;
+@others
+    &amp;lt;/script&amp;gt;
+&amp;lt;/section&amp;gt;
+
+
+						
+&lt;/t&gt;
+&lt;t tx="leo.20181101211745.1"&gt;&amp;lt;section data-markdown&amp;gt;
+    &amp;lt;script type="text/template"&amp;gt;
+@others
+    &amp;lt;/script&amp;gt;
+&amp;lt;/section&amp;gt;
+
+
+						
+&lt;/t&gt;
+&lt;t tx="leo.20181101211745.2"&gt;## 40723120 簡報
+
+### 虎科大機械設計工程系
+
+&amp;lt;small&amp;gt;
+Created by [KMOLab](http://lab.kmol.info/)
+&amp;lt;/small&amp;gt;
+
+[2018 Fall 分組網誌](./../blog/index.html)
+
+
+&lt;/t&gt;
+&lt;/tnodes&gt;
+&lt;/leo_file&gt;
+</t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
 @others
@@ -325,6 +593,23 @@ make.start()
 
 
 						
+</t>
+<t tx="leo.20181101211745.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101211745.2">## MCAD  s40723120 網際簡報
+
+
+*[CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
+
+*[Onshape](https://www.onshape.com) 操作
+
 </t>
 </tnodes>
 </leo_file>
