@@ -10,33 +10,33 @@
 <p>更改 @edit publishconf.py 中的 SITEURL</p>
 <h1>課程介紹</h1>
 <h3>gti基本指令</h3>
-<p>mkdir name 創建一個文檔夾</p>
-<p>rm file 刪除</p>
-<p>cd name 進入文檔夾</p>
-<p>pwd 查看當前目錄</p>
-<p>git init<span> </span><span>把當前目錄變成</span>git<span>可以管理的倉庫 生成</span><span>.git</span><span>文檔夾</span></p>
-<p>git add name<span> </span><span>把文檔添加到暫存區</span>stage</p>
-<p>git commit -m “ ”<span> </span><span>把暫存區所有文檔提交到</span>git<span>當前分支上（本地倉庫）</span></p>
-<p>git status<span> </span><span>查看當前</span>git<span>倉庫狀態</span></p>
-<p>git diff file<span> </span><span>查看修改的文檔內容</span></p>
-<p>git log<span> </span><span>查看從最近到最遠的提交日誌</span></p>
-<p>git reset --hard<span> </span><span>版本號  回退到某版本（</span><span>HEAD</span><span>指向當前版本）</span></p>
-<pre class="highlight"><span>git push origin HEAD --force 上傳目前(hard)版本</span></pre>
-<p>git reflog  <span>查看命令操作歷史</span></p>
-<p>git checkout -- file    <span>丟棄工作區文檔的修改</span></p>
-<p>git reset HEAD file    <span>丟棄暫存區的文檔</span></p>
-<p>git rm file  <span>刪除工作區文檔後還需刪除</span>git<span>中的文檔</span></p>
-<p>git checkout --file  <span>恢復誤刪的</span>git<span>文檔</span></p>
-<p>關聯一個遠程倉庫   git remote add origin address</p>
-<p>第一次推送代碼到遠程倉庫 git push -u origin master</p>
-<p><span>（</span>-u<span>會把本地倉庫</span><span>master</span><span>分支和遠程倉庫的</span>master<span>分支</span><span>關聯起來）</span></p>
-<p>從遠程倉庫克隆代碼到本地 git clone address</p>
-<p>創建分支 git branch name</p>
-<p>切換分支 git checkout name     </p>
-<p>查看分支 git branch</p>
-<p>創建分支並切換到分支上　　git checkout -b name</p>
-<p>合併指定分支到當前分支上 git merge name</p>
-<p>合併後刪除分支 git branch -d name</p>
+<p><span style="color: #ff0000;">mkdir name</span> 創建一個文檔夾</p>
+<p><span style="color: #ff0000;">rm file</span> 刪除</p>
+<p><span style="color: #ff0000;">cd name</span> 進入文檔夾</p>
+<p><span style="color: #ff0000;">pwd</span> 查看當前目錄</p>
+<p><span style="color: #ff0000;">git init</span><span> </span><span>把當前目錄變成</span>git<span>可以管理的倉庫 生成</span><span>.git</span><span>文檔夾</span></p>
+<p><span style="color: #ff0000;">git add name</span><span> </span><span>把文檔添加到暫存區</span>stage</p>
+<p><span style="color: #ff0000;">git commit -m</span> “ ”<span> </span><span>把暫存區所有文檔提交到</span>git<span>當前分支上（本地倉庫）</span></p>
+<p><span style="color: #ff0000;">git status </span><span>查看當前</span>git<span>倉庫狀態</span></p>
+<p><span style="color: #ff0000;">git diff file</span><span> </span><span>查看修改的文檔內容</span></p>
+<p><span style="color: #ff0000;">git log</span><span> </span><span>查看從最近到最遠的提交日誌</span></p>
+<p><span style="color: #ff0000;">git reset --hard</span><span> </span><span>版本號  回退到某版本（</span><span>HEAD</span><span>指向當前版本）</span></p>
+<pre class="highlight"><span><span style="color: #ff0000;">git push origin HEAD --force</span> 上傳目前(hard)版本</span></pre>
+<p><span style="color: #ff0000;">git reflog</span>  <span>查看命令操作歷史</span></p>
+<p><span style="color: #ff0000;">git checkout -- file</span>    <span>丟棄工作區文檔的修改</span></p>
+<p><span style="color: #ff0000;">git reset HEAD file  </span>  <span>丟棄暫存區的文檔</span></p>
+<p><span style="color: #ff0000;">git rm file</span>  <span>刪除工作區文檔後還需刪除</span>git<span>中的文檔</span></p>
+<p><span style="color: #ff0000;">git checkout --file</span>  <span>恢復誤刪的</span>git<span>文檔</span></p>
+<p style="color: #626262;"><span style="color: #ff0000;">git remote add origin addres<span style="background-color: #ffffff;">s</span></span><span style="color: #626262;"> 關聯一個遠程倉庫   </span></p>
+<p><span style="color: #ff0000;"> git push -u origin master</span> 第一次推送代碼到遠程倉庫</p>
+<p><span>       （</span>-u<span>會把本地倉庫</span><span>master</span><span>分支和遠程倉庫的</span>master<span>分支</span><span>關聯起來）</span></p>
+<p><span style="background-color: #ffffff; color: #626262;"><span style="color: #ff0000;">git clone address</span> </span>從遠程倉庫克隆代碼到本地 </p>
+<p><span style="background-color: #ffffff; color: #ff0000;">git branch name </span>創建分支 </p>
+<p><span style="color: #ff0000;">git checkout name </span><span style="background-color: #ffffff; color: #626262;">  </span>切換分支    </p>
+<p><span style="background-color: #ffffff; color: #ff0000;">git branch</span> 查看分支 </p>
+<p><span style="background-color: #ffffff; color: #626262;"><span style="color: #ff0000;">git checkout -b name</span> </span>創建分支並切換到分支上　　</p>
+<p><span style="background-color: #ffffff; color: #ff0000;">git merge name </span>合併指定分支到當前分支上 </p>
+<p><span style="background-color: #ffffff; color: #ff0000;">git branch -d name </span>合併後刪除分支 </p>
 <p><strong>合併時出現衝突要手動解決衝突，再提交，最後合併</strong>。</p>
 <p>將寫到一半的代碼從工作區拿走存起來 git stash</p>
 <p><span>恢復隱藏的代碼到工作區並刪除隱藏位置的代碼</span><span> </span> git stash pop</p>
