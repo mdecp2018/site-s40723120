@@ -24,14 +24,21 @@
 <v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181101213512.1" a="E"><vh>week1</vh>
-<v t="leo.20181101213512.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20181101211745.1" a="E"><vh>投影片1</vh>
 <v t="leo.20181101211745.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20181101213512.1" a="E"><vh>week1</vh>
+<v t="leo.20181101213512.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20181102132815.1"><vh>封面投影片內容</vh></v>
+<v t="leo.20181102132816.1"><vh>封面投影片內容</vh></v>
+<v t="leo.20181102132816.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20181102132817.1"><vh>封面投影片內容</vh></v>
+<v t="leo.20181102132817.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20181102132818.1"><vh>封面投影片內容</vh></v>
+<v t="leo.20181102132820.1"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
@@ -624,6 +631,34 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 </t>
 <t tx="leo.20181101213512.2">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181102132815.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181102132816.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181102132816.2">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181102132817.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181102132817.2">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181102132818.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181102132820.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
