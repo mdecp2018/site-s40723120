@@ -21,33 +21,49 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181101211745.1" a="E"><vh>投影片1</vh>
+<v t="leo.20181101211745.1"><vh>投影片1</vh>
 <v t="leo.20181101211745.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181101213512.1" a="E"><vh>week1</vh>
-<v t="leo.20181101213512.2"><vh>封面投影片內容</vh></v>
-<v t="leo.20181102132815.1"><vh>封面投影片內容</vh></v>
-<v t="leo.20181102132816.1"><vh>封面投影片內容</vh></v>
-<v t="leo.20181102132816.2"><vh>封面投影片內容</vh></v>
-<v t="leo.20181102132817.1"><vh>封面投影片內容</vh></v>
-<v t="leo.20181102132817.2"><vh>封面投影片內容</vh></v>
-<v t="leo.20181102132818.1"><vh>封面投影片內容</vh></v>
-<v t="leo.20181102132820.1"><vh>封面投影片內容</vh></v>
+<v t="leo.20181101213512.1" a="E"><vh>week</vh>
+<v t="leo.20181108193316.1" a="E"><vh>week1</vh>
+<v t="leo.20181101213512.2"><vh>影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20181108191754.1" a="E"><vh>week 2</vh>
+<v t="leo.20181108191754.2"><vh>影片內容</vh></v>
+</v>
+<v t="leo.20181108191809.1" a="E"><vh>week3</vh>
+<v t="leo.20181108191809.2"><vh>影片內容</vh></v>
+</v>
+<v t="leo.20181108191807.1" a="E"><vh>week4</vh>
+<v t="leo.20181108191807.2"><vh>影片內容</vh></v>
+</v>
+<v t="leo.20181108191801.1" a="E"><vh>week5</vh>
+<v t="leo.20181108191801.2"><vh>影片內容</vh></v>
+</v>
+<v t="leo.20181108191759.1" a="E"><vh>week6</vh>
+<v t="leo.20181108191759.2"><vh>影片內容</vh></v>
+</v>
+<v t="leo.20181108191757.1" a="E"><vh>week7</vh>
+<v t="leo.20181108191757.2"><vh>影片內容</vh></v>
+</v>
+<v t="leo.20181108191756.1" a="E"><vh>week8</vh>
+<v t="leo.20181108191756.2"><vh>影片內容</vh></v>
+</v>
+</v>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180827201621.18"><vh>導入影片</vh>
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -616,51 +632,140 @@ Created by [KMOLab](http://lab.kmol.info/)
 <t tx="leo.20181101211745.2">## MCAD  s40723120 網際簡報
 
 
-*[CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
++ [CMSimfly] 操作
 
-*[Onshape](https://www.onshape.com) 操作
++ [Onshape] 操作
 
+[CMSimfly]: https://github.com/chiamingyen/cmsimfly
+[Onshape]: https://www.onshape.com
 </t>
-<t tx="leo.20181101213512.1">&lt;section data-markdown&gt;
+<t tx="leo.20181101213512.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20181101213512.2"># Week 1
+
+ 說明如何利用p37 中的git 建立個人的Github Pages 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181108191754.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181101213512.2">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+<t tx="leo.20181108191754.2"># week2 
+學習使用ShareX截圖(ctrl+print scr) 錄製影印(shift+print scr) 並跟新作業倉儲
+在site-s40723210的 settings &gt; Branches &gt; 把branches改為gh-pages
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;img src="../images/chrome_2018-10-19_14-02-20.png" width="75%"/&gt;
 </t>
-<t tx="leo.20181102132815.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+<t tx="leo.20181108191756.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20181102132816.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20181102132816.2">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+						
 </t>
-<t tx="leo.20181102132817.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+<t tx="leo.20181108191756.2"># Week 8
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20181102132817.2">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+說明如何更新flaskapp.py
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20181102132818.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/UbFvVK7YUqg?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181108191757.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20181102132820.1">## 說明如何利用p37 中的git 建立個人的Github Pages 網站
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5Ssi2CkPLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+						
 </t>
+<t tx="leo.20181108191757.2"># Week 7
+
+說明如何更新README.md
+
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/7A6O1MIXLhg?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181108191759.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108191759.2"># Week 6
+
+說明如用在簡報中插入影片.
+
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/KnbEDMW3hh8?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181108191801.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108191801.2"># Week 5
+
+說明如何管理個人簡報。
+
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/T6o7OI0G32s?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181108191807.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108191807.2"># Week 4
+說明如何管理個人網誌。 
+
+&lt;iframe width="600" height="500" src="https://www.youtube.com/embed/KBmdV8lTe8Y?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181108191809.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108191809.2"># Week 3
+
+git 基本操作練習。
+
+&lt;iframe width="560" height="314" src="https://www.youtube.com/embed/1kIoece6LS0?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181108193316.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
 </tnodes>
 </leo_file>
